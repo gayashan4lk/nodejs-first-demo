@@ -7,6 +7,10 @@ import {
 	XmlHttpRequestCallback,
 } from 'gaya-learn-async-programming';
 import { AsyncAwait } from './src/async-await.mjs';
+import {
+	LogNumbers,
+	LogNumbersWithSetInterval,
+} from './src/exercise-01/log-numbers.mjs';
 
 //NodeServer();
 //EventLoop();
@@ -14,4 +18,6 @@ import { AsyncAwait } from './src/async-await.mjs';
 //SimplePromise();
 //Timer();
 //XmlHttpRequestCallback();
-AsyncAwait('./static/input.txt');
+//AsyncAwait('./static/input.txt');
+//LogNumbers();
+LogNumbersWithSetInterval();
