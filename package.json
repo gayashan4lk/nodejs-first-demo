@@ -12,7 +12,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"canvas": "^2.11.0",
-		"gaya-learn-async-programming": "^0.0.4",
+		"gaya-learn-async-programming": "^0.0.10",
 		"xmlhttprequest": "^1.8.0"
 	}
 }

@@ -1,3 +1,4 @@
-import { NodeServer } from 'gaya-learn-async-programming';
+import { NodeServer, EventLoop } from 'gaya-learn-async-programming';
 
-NodeServer();
+//NodeServer();
+EventLoop();
