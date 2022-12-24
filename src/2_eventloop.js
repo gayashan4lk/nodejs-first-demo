@@ -4,7 +4,7 @@ function main() {
 	filePath = './static/input.txt';
 
 	// This function reads file and logs its contents to the console
-	function readFile(filePath) {
+	function readAndLogFile(filePath) {
 		fs.readFile(filePath, (error, data) => {
 			if (error) console.error(error);
 			else console.log(data.toString());
@@ -13,7 +13,7 @@ function main() {
 
 	// this function schedules the readFile() function to be called in 1 second
 	setTimeout(() => {
-		readFile(filePath);
+		readAndLogFile(filePath);
 	}, 1000);
 
 	console.log('starting event loop');
