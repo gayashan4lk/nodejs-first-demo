@@ -20,25 +20,6 @@ function main() {
 		.then(function (image) {
 			console.log(image.toString());
 			console.log('Image loaded successfully.');
-			//document is not defined in node.js because document belongs to a webpage!
-			//document.body.appendChild(image);
-			// *****************
-			// createPNGStream() is not defined!
-			// image
-			// 	.createPNGStream()
-			// 	.pipe(out)
-			// 	.on('finish', function () {
-			// 		console.log('Image saved successfully');
-			// 	});
-			// **************
-			// toBuffer() is not defined!
-			// image.toBuffer(function (err, buffer) {
-			// 	if (err) {
-			// 		console.error(err);
-			// 	} else {
-			// 		fs.writeFileSync('newimage.png', buffer);
-			// 		console.log('Image saved successfully');
-			// 	}
 
 			const canvas = createCanvas(image.width, image.height);
 			const ctx = canvas.getContext('2d');
