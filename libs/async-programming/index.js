@@ -1,14 +1,13 @@
-// module.exports = {
-// 	NodeServer: require('./src/nodeserver'),
-// 	EventLoop: require('./src/eventLoop'),
-// 	SimpleCallback: require('./src/simpleCallback'),
-// 	XmlHttpRequestCallback: require('./src/xmlHttpRequest'),
-// 	Timer: require('./src/timer'),
-// 	SimplePromise: require('./src/simplePromise'),
-// };
-
 const NodeServer = require('./src/nodeserver');
 const EventLoop = require('./src/eventLoop');
+const SimpleCallback = require('./src/simpleCallback');
+const SimplePromise = require('./src/simplePromise');
+const Timer = require('./src/timer');
+const XmlHttpRequestCallback = require('./src/xmlHttpRequest');
 
 exports.NodeServer = NodeServer;
 exports.EventLoop = EventLoop;
+exports.SimpleCallback = SimpleCallback;
+exports.SimplePromise = SimplePromise;
+exports.Timer = Timer;
+exports.XmlHttpRequestCallback = XmlHttpRequestCallback;

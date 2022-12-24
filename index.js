@@ -1,4 +1,15 @@
-import { NodeServer, EventLoop } from 'gaya-learn-async-programming';
+import {
+	NodeServer,
+	EventLoop,
+	SimpleCallback,
+	SimplePromise,
+	Timer,
+	XmlHttpRequestCallback,
+} from 'gaya-learn-async-programming';
 
 //NodeServer();
-EventLoop();
+//EventLoop();
+//SimpleCallback();
+//SimplePromise();
+//Timer();
+XmlHttpRequestCallback();

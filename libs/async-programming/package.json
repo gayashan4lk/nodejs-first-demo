@@ -1,6 +1,6 @@
 {
 	"name": "gaya-learn-async-programming",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "Collection of coding exercises done to learn JavaScript asynchronous programming",
 	"main": "index.js",
 	"scripts": {
