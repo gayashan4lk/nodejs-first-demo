@@ -1,8 +1,6 @@
 import { readFile } from 'node:fs';
 
-function AsyncAwait() {
-	const filePath = './static/input.txt';
-
+function AsyncAwait(filePath) {
 	function readMyFile(filePath) {
 		return new Promise((resolve, reject) => {
 			readFile(filePath, (err, data) => {

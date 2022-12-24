@@ -14,4 +14,4 @@ import { AsyncAwait } from './src/async-await.mjs';
 //SimplePromise();
 //Timer();
 //XmlHttpRequestCallback();
-AsyncAwait();
+AsyncAwait('./static/input.txt');
