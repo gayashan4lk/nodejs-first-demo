@@ -8,5 +8,8 @@
 		"start": "node index.js"
 	},
 	"author": "gayashan wagachchi",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"xmlhttprequest": "^1.8.0"
+	}
 }
