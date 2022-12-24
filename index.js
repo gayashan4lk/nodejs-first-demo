@@ -1,6 +1,6 @@
 const nodeServer = require('./src/1_nodeserver');
-const hello = require('./src/2_eventloop');
+const evnetLoop = require('./src/2_eventloop');
 
 // run the examples
-nodeServer.runNodeServer();
-hello.printHello();
+//nodeServer.runNodeServer();
+evnetLoop.runEventLoop();
