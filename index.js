@@ -11,5 +11,5 @@ import {
 //EventLoop();
 //SimpleCallback();
 //SimplePromise();
-//Timer();
-XmlHttpRequestCallback();
+Timer();
+//XmlHttpRequestCallback();
