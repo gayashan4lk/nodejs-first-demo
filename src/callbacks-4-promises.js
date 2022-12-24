@@ -18,6 +18,7 @@ function main() {
 
 	loadImage('image.jpg')
 		.then(function (image) {
+			console.log(image.toString());
 			console.log('Image loaded successfully.');
 			//document is not defined in node.js because document belongs to a webpage!
 			//document.body.appendChild(image);
