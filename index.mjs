@@ -10,6 +10,7 @@ import { AsyncAwait } from './src/async-await.mjs';
 import {
 	LogNumbers,
 	LogNumbersWithSetInterval,
+	LogRandomNumber,
 } from './src/exercise-01/log-numbers.mjs';
 
 //NodeServer();
@@ -20,4 +21,5 @@ import {
 //XmlHttpRequestCallback();
 //AsyncAwait('./static/input.txt');
 //LogNumbers();
-LogNumbersWithSetInterval();
+//LogNumbersWithSetInterval();
+LogRandomNumber();
