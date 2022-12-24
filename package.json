@@ -1,6 +1,7 @@
 {
 	"name": "nodejs-first-project",
 	"version": "1.0.0",
+	"type": "module",
 	"description": "This is my first node.js project",
 	"main": "index.js",
 	"scripts": {
@@ -11,6 +12,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"canvas": "^2.11.0",
+		"gaya-learn-async-programming": "^0.0.4",
 		"xmlhttprequest": "^1.8.0"
 	}
 }

@@ -1,0 +1,11 @@
+{
+	"name": "gaya-learn-async-programming",
+	"version": "0.0.4",
+	"description": "Collection of coding exercises done to learn JavaScript asynchronous programming",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "gayashan wagachchi",
+	"license": "MIT"
+}
