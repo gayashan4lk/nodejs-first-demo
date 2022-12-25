@@ -12,7 +12,10 @@ import {
 	LogNumbersWithSetInterval,
 	LogRandomNumber,
 } from './src/exercise-01/log-numbers.mjs';
-import { CalculateTwoNumbers } from './src/exercise-02/calculate.mjs';
+import {
+	CalculateTwoNumbers,
+	Calculate,
+} from './src/exercise-02/calculate.mjs';
 
 //NodeServer();
 //EventLoop();
@@ -24,10 +27,5 @@ import { CalculateTwoNumbers } from './src/exercise-02/calculate.mjs';
 //LogNumbers();
 //LogNumbersWithSetInterval();
 //LogRandomNumber();
-CalculateTwoNumbers(5, 8, (num1, num2) => {
-	console.log(num1 + num2);
-});
-
-CalculateTwoNumbers(2, 10, (num1, num2) => {
-	console.log(num1 * num2);
-});
+//CalculateTwoNumbers();
+Calculate();
